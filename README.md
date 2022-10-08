@@ -1,4 +1,5 @@
 # Linux Documentation
 
-## RED HAT ENTERPRISE LINUX
-- [Getting Started with Linux](rhel/8/)
+## Index
+
+- [Getting Started with Linux](common/start-with-linux)
