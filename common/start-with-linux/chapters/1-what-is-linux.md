@@ -1,7 +1,3 @@
----
-title: "What is linux"
----
-
 # What is Linux
 
 Explain the purpose of Linux, opensource, Linux distributions, and my first step in linux.
