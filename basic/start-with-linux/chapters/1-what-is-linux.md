@@ -1,3 +1,7 @@
+---
+title: Introduction to Linux
+---
+
 # What is Linux
 
 Linux is a free implementation of a Unix like computer operating system.
