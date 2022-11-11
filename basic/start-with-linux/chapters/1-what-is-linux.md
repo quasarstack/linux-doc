@@ -22,6 +22,15 @@ Unix like utilities which are the subject of this class through to environments 
 and Tomcat (Web & JSP Server), MySQL (an SQL Database), XEN & KVM Virtualization
 environments, Gnome & KDE desktops, Open Office office productivity software.*
 
+## Linux Standards
+
+A variety of standards bodies have recently been created to oversee the development of the Linux operating system and associated utilities.
+
+Details can be found at the following URLs:
+http://www.linux.org/
+http://www.gnu.org/
+http://www.redhat.com/
+
 ## WHY SHOULD YOU LEARN ABOUT LINUX?
 
 Linux is a critical technology for IT professionals to understand.
