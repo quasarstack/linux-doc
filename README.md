@@ -2,7 +2,7 @@
 
 ## Index
 
-- [Getting Started with Linux](common/start-with-linux/index.md)
+- [Getting Started with Linux](basic/start-with-linux/index.md)
 - [Linux Core Concepts](common/linux-core-concepts/index.md)
 - [Get into Linux Basics](common/linux-basics/index.md)
 
