@@ -27,9 +27,10 @@ environments, Gnome & KDE desktops, Open Office office productivity software.*
 A variety of standards bodies have recently been created to oversee the development of the Linux operating system and associated utilities.
 
 Details can be found at the following URLs:
-http://www.linux.org/
-http://www.gnu.org/
-http://www.redhat.com/
+
+- http://www.linux.org/
+- http://www.gnu.org/
+- http://www.redhat.com/
 
 ## WHY SHOULD YOU LEARN ABOUT LINUX?
 
