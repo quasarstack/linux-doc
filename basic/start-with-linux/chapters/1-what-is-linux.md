@@ -1,6 +1,7 @@
 ---
-title: Introduction to Linux
+Title: Introduction to Linux
 ---
+
 
 # What is Linux
 
@@ -20,12 +21,12 @@ Linux is a free implementation of a Unix like computer operating system.
 off as the GNU project and more formally the whole environment is known as GNU/Linux.
 Linux provides a free Unix like operating system. It is distributed under the terms of the
 GNU General Public License.*
-
+>
 > *Modern Linux distributions tend to include vast numbers of useful software tools, from the
 Unix like utilities which are the subject of this class through to environments such as Apache
 and Tomcat (Web & JSP Server), MySQL (an SQL Database), XEN & KVM Virtualization
 environments, Gnome & KDE desktops, Open Office office productivity software.*
-
+>
 ## Linux Standards
 
 A variety of standards bodies have recently been created to oversee the development of the Linux operating system and associated utilities.
