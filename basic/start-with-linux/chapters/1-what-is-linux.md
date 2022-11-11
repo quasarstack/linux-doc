@@ -1,14 +1,17 @@
 # What is Linux
 
-Linux is a free implementation of a Unix like computer operating system
+Linux is a free implementation of a Unix like computer operating system.
 
 ## Free?
 - Free as in you do not need to pay for it
+```bash
     1- You may need to pay for the distribution
     2- You may need to pay for support
+```
 - Free as in you are free to do what you want with it
+```bash
   (as long as you pass that freedom on)
-
+```
 > *Strictly speak Linux is just the Kernel. The rest of the environment associated with it started
 off as the GNU project and more formally the whole environment is known as GNU/Linux.
 Linux provides a free Unix like operating system. It is distributed under the terms of the
@@ -17,7 +20,7 @@ GNU General Public License.*
 > *Modern Linux distributions tend to include vast numbers of useful software tools, from the
 Unix like utilities which are the subject of this class through to environments such as Apache
 and Tomcat (Web & JSP Server), MySQL (an SQL Database), XEN & KVM Virtualization
-environments, Gnome & KDE desktops, Open Office office productivity software. *
+environments, Gnome & KDE desktops, Open Office office productivity software.*
 
 ## WHY SHOULD YOU LEARN ABOUT LINUX?
 
