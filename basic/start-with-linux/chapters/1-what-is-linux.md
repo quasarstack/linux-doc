@@ -27,7 +27,7 @@ Linux is a free implementation of a Unix like computer operating system.
 An operating system is a special computer program (software) that controls the computer (hardware). The operating system serves as a liaison between the consumers and the resources, often coordinating the allocation of limited resources among numerous
 consumers. The resources include, for example, the CPU, disks, memory, and printers and the consumers are running programs requiring access to the resources. As an example, a user (or a program) requests to store a file on the disk, the operating system intervenes to manage the allocation of space on the disk, and the transfer of the information from memory to the disk
 
-![1.1-01](images/1.1-01.jpeg)
+![1.1-01](linux-doc/images/1.1-01.jpeg)
 
 When a user requests program execution, the operating system must allocate space in memory to load and access the program. As the program executes, it is allowed access to the Central Processing Unit (CPU). In a time-sharing system, there are often several
 programs trying to access the CPU at the same time.
@@ -38,7 +38,7 @@ The operating system controls how and when a program will have its turn in the C
 
 The UNIX operating system started at Bell Laboratories in 1969. Ken Thompson, supported by Rudd Canaday, Doug McIlroy, Joe Ossana, and Dennis Ritchie, wrote a small generalpurpose time-sharing system which started to attract attention. With a promise to provide good document preparation tools to the administrative staff at the Labs, the early developers obtained a larger computer and proceeded with the development.
 
-![1.1.11](images/1.1.11.JPG)
+![1.1.11](linux-doc/images/1.1.11.JPG)
 
 In the mid 1970s the UNIX system was licensed to universities and gained a wide popularity in the academic community for the following reasons:
 
