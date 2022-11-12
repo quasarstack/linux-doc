@@ -38,7 +38,7 @@ The operating system controls how and when a program will have its turn in the C
 
 The UNIX operating system started at Bell Laboratories in 1969. Ken Thompson, supported by Rudd Canaday, Doug McIlroy, Joe Ossana, and Dennis Ritchie, wrote a small generalpurpose time-sharing system which started to attract attention. With a promise to provide good document preparation tools to the administrative staff at the Labs, the early developers obtained a larger computer and proceeded with the development.
 
-![1.1.11](images/1.1.11.JPG)
+![1.1-11](images/1.1-11.JPG)
 
 In the mid 1970s the UNIX system was licensed to universities and gained a wide popularity in the academic community for the following reasons:
 
@@ -57,7 +57,7 @@ When the UNIX operating system reached the University of California at Berkeley,
 
 AT&T recognized the potential of the operating system and started licensing the system commercially. To enhance their product, they united internal UNIX system development that was being completed in different departments within AT&T, and also started to incorporate enhancements that Berkeley had developed.
 
-Later success can be attributed to:
+**Later success can be attributed to:**
 - A flexible user interface, and an operating environment that includes numerous utilities.
 - The modularity of the system design that allows new utilities to be added.
 - Capability to support multiple processes and multiple users concurrently.
@@ -67,6 +67,60 @@ Later success can be attributed to:
 - Standardization of the interface definition to promote application portability
 
 # Features of UNIX
+
+The UNIX system provides a time-sharing operating system that controls the activities and resources of the computer, and an interactive, flexible operating interface. It was designed to run multiple processes concurrently and support multiple users to facilitate the sharing of data between members of a project team. The operating environment was designed with a modular architecture at all levels. When installing the UNIX system, you only need install the pieces that are relevant to your operating needs, and omit the excess. For example, the UNIX system supplies a large collection of program development utilities, but if you are not doing program development you need only to install the minimal compiler. The user interface also effectively supports the modular philosophy. Commands that know nothing about each other can be easily combined through pipelines, to perform quite complex
+manipulations. 
+
+![1.1.-02](images/1.1-02.JPG)
+
+## The Operating System 
+
+The kernel is the operating system. It is responsible for managing the available resources and access to the hardware. The kernel contains modules for each hardware component that it interfaces with. These modules provide the functionality that allows programs access to the CPU, memory, disks, terminals, the network, and so forth. As new types of hardware are installed on the system, new modules can be incorporated into the kernel.
+
+## The Operating Environment
+
+### Tools and Applications
+
+The modular design of the UNIX system environment is most evident in this layer. The UNIX system command philosophy is that each command does one thing well, and the collection of commands make up a tool box. When you have a job to complete you pull out
+the appropriate tools. Complex tasks can be performed by combining the tools appropriately.From its inception, the UNIX system "toolbox" has included much more than just the basic commands required to interact with the system. The UNIX system also provides utilities for 
+
+- electronic mail (mail, mutt)
+- file editing (ed, ex, vi)
+- text processing (sort, grep, wc, awk, sed)
+- text formatting (nroff)
+- program development (cc, make, lint, lex)
+- program management (SCCS, RCS)
+- inter-system communications (uucp)
+- process and user accounting (ps, du, acctcom)
+
+Since the UNIX system user environment was designed with an interactive, programmable,modular implementation, new utilities can easily be developed and added to the user's toolbox, and unnecessary tools can be omitted without impairing system operation.
+
+As an example, an application programmer and a technical writer are using UNIX systems. They will use many common commands, even though their applications are very different. They will also use utilities that are appropriate just for their development. The application programmer's system will include utilities for program development and program management, while the technical writer's system will contain utilities for text formatting and processing, and document management. It is interesting to note that the utility that the application developer uses for program revision control can also be used by the technical writer for document revision control. Therefore, their systems will look very similar, yet each user has selected and discarded the modules that are relevant to his or her application needs.
+
+** The popularity of the UNIX system can largely be attributed to **
+
+- The completeness and the flexibility of the UNIX system allowing it to fit into many application environments.
+- The numerous utilities that are included in the operating environment enhancing users' productivity.
+- The availability on and portability to many hardware platforms.
+
+### The Shell
+The shell is an interactive command interpreter. Commands are entered at the shell prompt,and acted upon as they are issued. A user communicates with the computer through the shell. The shell gathers the input the user enters at the keyboard and translates the command into a form that the kernel can understand. Then the system will execute the command.
+
+You should notice that the shell is separate from the kernel. If you do not like the interface provided by the supplied shell, you can easily replace it with another shell. Many shells are currently available. Some are command driven and some provide a menu interface. The common shells that are supplied with the UNIX & Linux systems include both a command interpreter and a programmable interface.
+
+There are two main families of shells that are commonly available in the UNIX system
+environment. They are
+
+- Bourne Shell — the original shell provided on AT&T based systems developed by Stephen Bourne at Bell Laboratories. It provides a UNIX system command interpreter and supports a programmable interface to develop shell programs, or scripts as they are commonly called. The programmable and interactive interfaces provide capabilities such as variable definition and substitution, variable and file testing, branching, and loops.
+
+- C Shell (/usr/bin/csh) — the shell developed at the University of California Berkeley by Bill Joy, and is provided on BSD-based systems. This shell was referred to as the California Shell, which was shortened to just the C Shell. It was considered an
+improvement over the Bourne Shell because it offered interactive features such as a command stack which allows simple recalling and editing of previously entered commands, and aliasing which provides personalized alternative names for existing commands.
+
+From these two bases many shells have evolved. The Bourne Shell was significantly enhanced at Bell Labs by David Korn to derive the “ksh” which later formed the basis of the POSIX standard for the shell. While modern Linux systems may ship with a large number of different shells and many more are available for download should anyone be interested. The most commonly used shell in the Linux world has become “BASH” The Borne Again Shell. This is compliant with the POSIX standard but provides many additional features, including some of the popular ones from the csh.
+
+*** Comparison of Shell Features ***
+
+![1.1.-12](images/1.1-12.JPG)
 
 # More Features of UNIX
 
