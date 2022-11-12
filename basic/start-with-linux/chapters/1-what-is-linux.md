@@ -214,7 +214,7 @@ standards those that will ensure portability and interworking of applications, a
 
 X/Open has recently merged with the Open Software Foundation (OSF) to form The Open Group.
 
-*Some elements include the following:
+**Some elements include the following:**
 
 Component                   | Defining Standard
 ----------------------------|-------------------------------
