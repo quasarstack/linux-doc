@@ -201,9 +201,9 @@ Component   | Component Description
             | Defines the general requirements for how test suites should be written and administered. Provides a list of test 
             | assertions showing exactly what in the POSIX standard has to be tested. This work group will not be authoring the 
             | test suites, and the method of testing is left up to the vendor.
-1003.4      | Real Time
-            |  4a Thread Extensions
-            |  4b Language Independent Specification
+1003.4      | Real Time 
+4a Thread Extensions
+4b Language Independent Specification
 1003.5      | Ada Binding for POSIX
 ## X/Open and The Open Group
 
