@@ -192,14 +192,18 @@ To advance the standard development, POSIX has been partitioned into several com
 Component   | Component Description 
 ------------|---------------------------------------------------------------------------------------------------------------------
 1003.1      | System Interface (formed 1981).
-              Provides a source code, programmatic interface bound to a high level language that facilitates application portability. POSIX.1 is closely related to SVID Issue 2 (SVID2), but also includes features from BSD 4.3 and additional features that are not supplied with either interface definition.
+            | Provides a source code, programmatic interface bound to a high level language that facilitates application 
+            | portability. POSIX.1 is closely related to SVID Issue 2 (SVID2), but also includes features from BSD 4.3 and 
+            | additional features that are not supplied with either interface definition.
 1003.2      | Shells and Utilities (formed 1984).
-              Defines a shell command language and interactive utilities.
+            | Defines a shell command language and interactive utilities.
 1003.3      | Testing Methods (formed 1986).
-              Defines the general requirements for how test suites should be written and administered. Provides a list of test assertions showing exactly what in the POSIX standard has to be tested. This work group will not be authoring the test suites, and the method of testing is left up to the vendor.
+            | Defines the general requirements for how test suites should be written and administered. Provides a list of test 
+            | assertions showing exactly what in the POSIX standard has to be tested. This work group will not be authoring the 
+            | test suites, and the method of testing is left up to the vendor.
 1003.4      | Real Time
-              4a Thread Extensions
-              4b Language Independent Specification
+            |  4a Thread Extensions
+            |  4b Language Independent Specification
 1003.5      | Ada Binding for POSIX
 ## X/Open and The Open Group
 
