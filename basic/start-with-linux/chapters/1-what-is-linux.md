@@ -161,12 +161,13 @@ Despite the many implementations of the UNIX system, the differences at the user
 ### Define Interface Not Implementation
 Standards are not intended to define a totally new interface but to create a well-defined,portable interface based on current UNIX system implementations. It is important to understand that standards are intended to define interfaces to the UNIX system operating environment, not how a standard is to be implemented. Therefore, the UNIX system standards do not dictate that all UNIX system computers be complete duplicates, rather that they will all support a common set of functions that specific implementations can be formed around.
 
-A good analogy would be an automobile. The basic interface defined by the automobile "standard" is
+A good analogy would be an automobile. The basic interface defined by the automobile "standard" is:
+```shell
     Go — step on accelerator
     Stop — step on brake
     Change directions — turn wheel
     Start engine — turn key
-
+```
 Automobiles that support these standard interfaces can be designed with many different implementations. For example, the automobile could have an electric engine or a gas engine, but stepping on the accelerator would make either go.
 
 An interesting side effect of this philosophy is that it will be possible for non-UNIX operating systems to comply with the defined standards by supporting the prescribed interfaces.
@@ -205,6 +206,7 @@ Component   | Component Description
 4a Thread Extensions
 4b Language Independent Specification
 1003.5      | Ada Binding for POSIX
+
 ## X/Open and The Open Group
 
 X/Open has been an international consortium of information system suppliers, users, system integrators and software developers who joined to define a Common Application Environment. Their mission was not to define new standards, but select from existing
@@ -212,8 +214,18 @@ standards those that will ensure portability and interworking of applications, a
 
 X/Open has recently merged with the Open Software Foundation (OSF) to form The Open Group.
 
-*Some elements include the following:*
+*Some elements include the following:
 
+Component                   | Defining Standard
+----------------------------|-------------------------------
+System Calls & Libraries    |  POSIX 1003.1
+Commands & Utilities        |  POSIX 1003.2
+C Language                  |  ANSI
+COBOL Language              |  ANSI/ISO
+FORTRAN Language            |  ANSI
+Pascal Language             |  ISO
+SQL                         |  ANSI
+Window Manager              |  X Window System
 
 ## American National Standards Institute (ANSI)
 
