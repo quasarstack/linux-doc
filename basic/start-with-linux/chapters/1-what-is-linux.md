@@ -123,8 +123,27 @@ From these two bases many shells have evolved. The Bourne Shell was significantl
 ![1.1.-12](images/1.1-12.JPG)
 
 # More Features of UNIX
+-  Hierarchical file system
+-  Multi-tasking
+-  Multi-user
+
+## Hierarchical File System
+Information is stored on the disk in containers known as files. Every file is assigned a name,and a user accesses a file by referencing its name. Files normally contain data, text, programs, and so on. A UNIX system normally contains hundreds of files, so another container, the directory, is provided that allows users to organize their files into logical groupings. In the UNIX system, a directory can be used to store files or other directories.
+
+The file system structure is very flexible, so if a user's organizational needs change, files and directories can be easily moved, renamed, or grouped into new or different directories through simple UNIX system commands. The file system, therefore, is like an electronic filing cabinet. It allows users to separate and organize their information into directories that are most appropriate for their environment and application.
+
+## Multitasking
+In the UNIX system several tasks can be performed at the same time. From a single terminal, a single user can execute several programs that all seem to be running simultaneously. This means that a user can edit a text file, while another file is being
+formatted, while yet another file is being printed.
+
+In actuality, the CPU can execute only one task at a time, but the UNIX operating system has the capability to time-share the CPU between multiple processes that are scheduled to run at the same time. So, to the user, it appears that all programs are executing
+simultaneously.
+
+## Multiuser
+Multi-user capability allows more than one user to log in and use the system at the same time. Multiple terminals and keyboards can be attached to the same computer. This is a natural extension of the multi-tasking capability. If the system can run multiple programs simultaneously, some of those multiple programs should be able to support other user sessions. In addition, a single user could log in multiple times to the same system through multiple terminals. A big advantage of this architecture is that members of a work group can have access to the same data at the same time, either from a development or a user viewpoint.
 
 # The UNIX System and Standards
+
 
 ## Linux Standards
 
