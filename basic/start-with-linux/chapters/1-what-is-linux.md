@@ -144,6 +144,80 @@ Multi-user capability allows more than one user to log in and use the system at 
 
 # The UNIX System and Standards
 
+The UNIX system was developed with a focus on portability.Since most of the operating system and utilities have been written in C (as opposed to assembler), the UNIX system has not been restricted to one processor or hardware platform. On the other hand, since the UNIX system is written in a high level language, it is easy to modify, as exemplified by the over 100 companies that offer UNIX-based implementations (licensed from The Open Group) and the UNIX system clones (new implementations of a UNIX-like interface that do not require an Open Group license). Even though most systems are derived from AT&T UNIX, BSD UNIX, or a combination of both,each implementation may incorporate unique extensions to the operating system, such as real time capabilities, that may negate the compatibility between different UNIX system implementations. (Actually, System V has already incorporated many of the popular features of BSD.) To encourage consistency from implementation to implementation standards are being formulated for the UNIX system operating environment. 
+
+The goal of these standards is to promote the following:
+1. Portability — the ability to easily transfer an application from one UNIX system implementation to another.
+2. Interoperability — the ability for applications running on different UNIX system implementations to share information.
+3. Scalability — provide a range of hardware options, from small systems to large systems, users can select from depending on their application needs. Plus allow flexible system upgrade capabilities as application needs grow.
+
+Despite the many implementations of the UNIX system, the differences at the user level are slight, since most have been developed from common origins. Therefore, the standards initially focused on the source code interface to the kernel, and are only recently evaluating standardization of the interactive user interface.
+
+## Goals of the Standards Bodies
+### Define Interface Not Implementation
+Standards are not intended to define a totally new interface but to create a well-defined,portable interface based on current UNIX system implementations. It is important to understand that standards are intended to define interfaces to the UNIX system operating environment, not how a standard is to be implemented. Therefore, the UNIX system standards do not dictate that all UNIX system computers be complete duplicates, rather that they will all support a common set of functions that specific implementations can be formed around.
+
+A good analogy would be an automobile. The basic interface defined by the automobile "standard" is
+    Go — step on accelerator
+    Stop — step on brake
+    Change directions — turn wheel
+    Start engine — turn key
+
+Automobiles that support these standard interfaces can be designed with many different implementations. For example, the automobile could have an electric engine or a gas engine, but stepping on the accelerator would make either go.
+
+An interesting side effect of this philosophy is that it will be possible for non-UNIX operating systems to comply with the defined standards by supporting the prescribed interfaces.
+### Modularity
+The computing environment is continually changing and growing. The standards should be extensible. They should be able to keep up with advances in technology and user  demands.
+
+Standards are being defined in a modular fashion so that they can be added to, or possibly replaced, when a better interface emerges.
+
+## AT&T System V Interface Definition (SVID)
+AT&T was the first to develop a standard in the UNIX system operating environment. Their standard, based on AT&T's System V, focuses on the function level interface to the operating system (system calls), interprocess communications, the UNIX system shell and some basic utilities.
+
+AT&T also developed the System V Verification Suite (SVVS) to verify SVID compliance.
+
+Although the SVID was the first attempt to develop a standard, the standard was not vendorneutral, since AT&T was the definitive body. For example, at System V Release 3 (System V.3), AT&T enforced such strict qualifications for implementations that desired System V.3 endorsement, that certain Berkeley extensions would negate System V.3 compliance.
+
+## IEEE/POSIX
+The Institute of Electrical and Electronics Engineers (IEEE) sponsors the Portable Operating System Interface for computer environments (POSIX). POSIX originated from the 1984 /usr/group Standard, whose goal was to define standards beyond the SVID (/usr/group is the predecessor to UniForum). POSIX 1003 was set up to develop standards for the complete operating environment, not just the kernel interface. Unlike AT&T, POSIX defines a programming interface without defining the implementation. Therefore, POSIX-compliant systems can be developed that are not derived from AT&T code.
+
+POSIX has also been submitted to the ISO for inclusion in the international standard. It is associated with the draft proposed standard TC22 WG15.
+
+To advance the standard development, POSIX has been partitioned into several components, and a working group assigned to each.
+
+Component   | Component Description 
+-----------------------------------
+1003.1      | System Interface (formed 1981).
+            | Provides a source code, programmatic interface bound to a high level language that facilitates application portability. POSIX.1 is closely related to SVID Issue 2 (SVID2), but also includes features from BSD 4.3 and additional features that are not supplied with either interface definition.
+1003.2      | Shells and Utilities (formed 1984).
+Defines a shell command language and interactive utilities.
+1003.3      | Testing Methods (formed 1986).
+Defines the general requirements for how test suites should be written and administered. Provides a list of test assertions showing exactly what in the POSIX standard has to be tested. This work group will not be authoring the test suites, and the method of testing is left up to the vendor.
+1003.4      | Real Time
+4a Thread Extensions
+4b Language Independent Specification
+1003.5      | Ada Binding for POSIX
+## X/Open and The Open Group
+
+X/Open has been an international consortium of information system suppliers, users, system integrators and software developers who joined to define a Common Application Environment. Their mission was not to define new standards, but select from existing
+standards those that will ensure portability and interworking of applications, and allow users to move between systems without additional training. X/Open also has its origins from SVID, but is a superset of POSIX. X/Open's Portability Guide (XPG, currently revision 4) includes a set of relevant standards that address the entire application environment. 
+
+X/Open has recently merged with the Open Software Foundation (OSF) to form The Open Group.
+
+*Some elements include the following:*
+
+
+## American National Standards Institute (ANSI)
+
+The coordinating organization for voluntary standards in the USA. IEEE is an accredited standards committee of ANSI.
+
+## International Standards Organization (ISO)
+Coordinates the adoption of international standards for distributed information systems in an open systems environment (an environment of heterogeneous networked systems). Most notable developments have been in the area of networking and the definition of the seven blayer Open Systems Interconnection (OSI) network reference model.
+
+The ISO participants generally come from national standards organizations of the member countries. In the USA, ANSI is an ISO participant.
+
+## National Institute of Standards and Technology Federal Information Processing Standard (NIST/FIPS)
+The NIST was formerly the National Bureau of Standards (NBS) and is under the direction of the Department of Commerce. This organization is developing standards requirements for governmental agencies. Their original mission was to evaluate the proposed  POSIX.1 standards, and the resulting Federal Information Processing Standard (FIPS) incorporated POSIX plus additional features that POSIX.1 considered optional or did not specify
 
 ## Linux Standards
 
