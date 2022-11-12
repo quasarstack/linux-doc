@@ -146,7 +146,10 @@ Multi-user capability allows more than one user to log in and use the system at 
 
 The UNIX system was developed with a focus on portability.Since most of the operating system and utilities have been written in C (as opposed to assembler), the UNIX system has not been restricted to one processor or hardware platform. On the other hand, since the UNIX system is written in a high level language, it is easy to modify, as exemplified by the over 100 companies that offer UNIX-based implementations (licensed from The Open Group) and the UNIX system clones (new implementations of a UNIX-like interface that do not require an Open Group license). Even though most systems are derived from AT&T UNIX, BSD UNIX, or a combination of both,each implementation may incorporate unique extensions to the operating system, such as real time capabilities, that may negate the compatibility between different UNIX system implementations. (Actually, System V has already incorporated many of the popular features of BSD.) To encourage consistency from implementation to implementation standards are being formulated for the UNIX system operating environment. 
 
+![1.1-03](images/1.1-03.JPG)
+
 The goal of these standards is to promote the following:
+
 1. Portability — the ability to easily transfer an application from one UNIX system implementation to another.
 2. Interoperability — the ability for applications running on different UNIX system implementations to share information.
 3. Scalability — provide a range of hardware options, from small systems to large systems, users can select from depending on their application needs. Plus allow flexible system upgrade capabilities as application needs grow.
@@ -154,6 +157,7 @@ The goal of these standards is to promote the following:
 Despite the many implementations of the UNIX system, the differences at the user level are slight, since most have been developed from common origins. Therefore, the standards initially focused on the source code interface to the kernel, and are only recently evaluating standardization of the interactive user interface.
 
 ## Goals of the Standards Bodies
+
 ### Define Interface Not Implementation
 Standards are not intended to define a totally new interface but to create a well-defined,portable interface based on current UNIX system implementations. It is important to understand that standards are intended to define interfaces to the UNIX system operating environment, not how a standard is to be implemented. Therefore, the UNIX system standards do not dictate that all UNIX system computers be complete duplicates, rather that they will all support a common set of functions that specific implementations can be formed around.
 
@@ -184,7 +188,7 @@ The Institute of Electrical and Electronics Engineers (IEEE) sponsors the Portab
 POSIX has also been submitted to the ISO for inclusion in the international standard. It is associated with the draft proposed standard TC22 WG15.
 
 To advance the standard development, POSIX has been partitioned into several components, and a working group assigned to each.
-
+------------|----------------------
 Component   | Component Description 
 -----------------------------------
 1003.1      | System Interface (formed 1981).
