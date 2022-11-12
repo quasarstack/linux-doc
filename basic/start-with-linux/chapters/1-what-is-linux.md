@@ -188,9 +188,9 @@ The Institute of Electrical and Electronics Engineers (IEEE) sponsors the Portab
 POSIX has also been submitted to the ISO for inclusion in the international standard. It is associated with the draft proposed standard TC22 WG15.
 
 To advance the standard development, POSIX has been partitioned into several components, and a working group assigned to each.
-------------|----------------------
+
 Component   | Component Description 
------------------------------------
+------------|----------------------
 1003.1      | System Interface (formed 1981).
             | Provides a source code, programmatic interface bound to a high level language that facilitates application portability. POSIX.1 is closely related to SVID Issue 2 (SVID2), but also includes features from BSD 4.3 and additional features that are not supplied with either interface definition.
 1003.2      | Shells and Utilities (formed 1984).
