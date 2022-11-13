@@ -10,10 +10,9 @@ Upon completion of this module, you will be able to do the following:
 - Use some simple Linux system commands for miscellaneous utilities and output.
 
 # A Typical Terminal Session:
-
-• Log in to identify yourself and gain access.
-• Execute commands to do work.
-• Log off to terminate your connection
+1. Log in to identify yourself and gain access.
+2. Execute commands to do work.
+3. Log off to terminate your connection
 
 To communicate with your computer you will require:
 - a terminal with a full American Standard Code for Information Interchange (ASCII)
